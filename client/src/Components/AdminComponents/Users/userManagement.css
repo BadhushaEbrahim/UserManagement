@@ -1,0 +1,51 @@
+.searchadmin{
+    margin-left: 150px;
+    width: 250px;
+}
+
+.addButtonAdmin{
+    position: absolute;
+    left: 84%;
+    top: 17%;
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+  border: 1px #051d33 solid;
+ background-color: #051d33;
+  color: rgb(255, 255, 255);
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.delete{
+  color: red;
+  width: 40px;
+  height: 50px;
+}
+
+.edit{
+  color: green;
+  width: 40px;
+  height: 50px;
+}
